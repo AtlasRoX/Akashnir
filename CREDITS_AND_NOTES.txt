@@ -1,0 +1,34 @@
+আকাশনীড় (Akashnir) — চাদ বাগান ডকুমেন্টারি
+================================================
+
+FILES
+  Akashnir_ChadBagan_Documentary_v3_1080p.mp4  CURRENT film, v3 (3:54; + clips 38-1 and 50, grain-embedded title)
+  Akashnir_ChadBagan_Documentary_v2_1080p.mp4  v2 (3:45) - superseded, safe to delete
+  Akashnir_ChadBagan_Documentary_1080p.mp4     v1 (3:31) - superseded, safe to delete
+  Both: 1920x1080, 24 fps, 2.39:1 letterbox, H.264 + AAC 320k, about -15 LUFS
+  LUTs/65pt, LUTs/33pt                        The three custom grading LUTs (Rec.709 in / Rec.709 out)
+      AKASHNIR_01_Dhaka_Smog.cube     - cold, drained, smoggy highlights, matte blacks (the city)
+      AKASHNIR_02_Golden_Garden.cube  - warm highlights, emerald greens, tamed cyan/blue (the garden)
+      AKASHNIR_03_Hope.cube           - brighter, cleaner, warm (inauguration + ending)
+  _production/                                The full project (edit list, grade, sound, titles) — re-renderable
+
+REQUIRED CREDIT WHEN YOU UPLOAD (music licence is CC BY 4.0) — paste into the video description:
+  Music: "A Kind of Hope" by Scott Buckley — released under CC-BY 4.0. www.scottbuckley.com.au
+  Music: "Anabasis I" by Scott Buckley — released under CC-BY 4.0. www.scottbuckley.com.au
+  Sound effects generated with ElevenLabs.
+
+ON-SCREEN TEXT IN v2 (as you asked)
+  শুভ উদ্বোধনে: ফরিদা খানম, জেলা প্রশাসক ও জেলা ম্যাজিস্ট্রেট, ঢাকা  (lower third at the curtain reveal + credit card)
+  ৪১৮টি গাছ · ৫৮ প্রজাতি · প্রায় ১১,০০০ বর্গফুট
+  খাবারের ব্যবস্থা · পানির ব্যবস্থা · সবুজ আশ্রয়
+  ছাদবাগান বাস্তবায়নে: গ্রীন সেভার্স (from the entrance sign in clip 8)
+  Opening title = "আকাশনীড় Bengali Title+.png" (maroon, over the doves' sky)
+  Final end card = "Warm ivory Bengali title lettering.png" (on black)
+
+RE-RENDER (from _production, Python 3 + ffmpeg 8):
+  python render_shots.py     # graded shots  (edit edl.py / grade_cfg.json first)
+  python mix.py              # sound mix
+  python final.py            # titles + finishing + master
+
+Clips not used in v3: 15, 22, 44, 49, 51, 53, 28-1, 45-1 (cut for pace; the film stays under 4 minutes).
+52-1.MTS is a byte-identical copy of 35-1.MTS (the monkey), so it appears once.

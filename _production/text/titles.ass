@@ -1,0 +1,32 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Place,Google Sans Medium,128,&H00E4EDF3,&H00E4EDF3,&H70000000,&H00000000,0,0,0,0,106,100,0,0,1,4,0,5,0,0,0,1
+Style: Line,Google Sans,68,&H00E4EDF3,&H00E4EDF3,&H58000000,&H00000000,0,0,0,0,105,100,0,0,1,4,0,2,0,0,214,1
+Style: Fact,Google Sans Medium,92,&H00E4EDF3,&H00E4EDF3,&H58000000,&H00000000,0,0,0,0,105,100,0,0,1,4.5,0,2,0,0,214,1
+Style: Lower,Google Sans,42,&H00E4EDF3,&H00E4EDF3,&H58000000,&H00000000,0,0,0,0,104,100,0,0,1,4,0,1,170,0,214,1
+Style: Credit,Google Sans,46,&H10E4EDF3,&H00E4EDF3,&HFF000000,&H00000000,0,0,0,0,104,100,0,0,1,0,0,5,0,0,0,1
+Style: Small,Google Sans,40,&H30E4EDF3,&H00E4EDF3,&HFF000000,&H00000000,0,0,0,0,104,100,0,0,1,0,0,5,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:07.00,0:00:11.30,Place,,0,0,0,,{\fad(900,900)\pos(960,300)\blur8}ঢাকা
+Dialogue: 0,0:00:14.80,0:00:19.20,Line,,0,0,0,,{\fad(700,700)\blur8}দুই কোটিরও বেশি মানুষের শহর
+Dialogue: 0,0:00:20.00,0:00:25.10,Line,,0,0,0,,{\fad(700,700)\blur8}নদী ক্লান্ত, বাতাস ভারী
+Dialogue: 0,0:00:43.00,0:00:46.70,Line,,0,0,0,,{\fad(700,700)\blur8}এই শহরে পাখিরা বসবে কোথায়?
+Dialogue: 0,0:01:29.22,0:01:32.95,Fact,,0,0,0,,{\fad(500,550)\blur8}৪১৮টি গাছ
+Dialogue: 0,0:01:33.60,0:01:37.41,Fact,,0,0,0,,{\fad(500,550)\blur8}৫৮ প্রজাতি
+Dialogue: 0,0:01:38.06,0:01:43.20,Fact,,0,0,0,,{\fad(500,550)\blur8}প্রায় ১১,০০০ বর্গফুট
+Dialogue: 0,0:01:47.42,0:01:54.08,Fact,,0,0,0,,{\fad(500,550)\blur8}খাবারের ব্যবস্থা
+Dialogue: 0,0:02:08.47,0:02:12.24,Fact,,0,0,0,,{\fad(500,550)\blur8}পানির ব্যবস্থা
+Dialogue: 0,0:02:13.54,0:02:20.25,Fact,,0,0,0,,{\fad(500,550)\blur8}সবুজ আশ্রয়
+Dialogue: 0,0:02:36.73,0:02:42.50,Line,,0,0,0,,{\fad(700,700)\blur8}প্রকৃতিকে জায়গা দিলে, প্রকৃতি ফিরে আসে
+Dialogue: 0,0:03:25.37,0:03:31.68,Line,,0,0,0,,{\fad(700,700)\blur8}এই শহরের প্রতিটি ছাদ হতে পারে একটি আকাশনীড়
+Dialogue: 0,0:03:33.47,0:03:39.47,Credit,,0,0,0,,{\fad(1000,900)}{\fs54}পরিকল্পনা ও বাস্তবায়নে\N{\fnGoogle Sans Medium\fs120}ফরিদা খানম\N{\fnGoogle Sans\fs56}জেলা প্রশাসক ও জেলা ম্যাজিস্ট্রেট, ঢাকা
+Dialogue: 0,0:03:40.07,0:03:45.36,Small,,0,0,0,,{\fad(1000,1000)}{\fnGoogle Sans Medium\fs66}জেলা প্রশাসকের কার্যালয়, ঢাকা{\fnGoogle Sans\fs48}\Nছাদবাগান বাস্তবায়নে: গ্রীন সেভার্স\N\N{\fs36}সংগীত: “A Kind of Hope”, “Anabasis I” — Scott Buckley (CC BY 4.0)   ·   শব্দ: ElevenLabs
